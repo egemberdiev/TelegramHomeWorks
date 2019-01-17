@@ -18,7 +18,7 @@ public class Main {
     static boolean evenNumbers(int[] a) {
         boolean twin = false;
         for (int i = 1; i < a.length; i++) {
-            if(a[i - 1] == a[i]){
+            if (a[i - 1] == a[i]) {
                 twin = true;
             }
         }
